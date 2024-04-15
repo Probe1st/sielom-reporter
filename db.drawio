@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T10:15:18.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="bJyRnaxUnBEuY3d_FXVV" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T10:41:09.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="1eluYUwEmPLwRGpbE2WJ" version="24.2.3" type="github">
   <diagram name="Страница — 1" id="AeDL3vrudHblcF59rY4D">
-    <mxGraphModel dx="1877" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="akce31rGvGXA0X8LdyNU-50" value="Statuses" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="40" y="360" width="279" height="120" as="geometry" />
+          <mxGeometry x="360" y="390" width="279" height="120" as="geometry" />
         </mxCell>
         <mxCell id="akce31rGvGXA0X8LdyNU-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="akce31rGvGXA0X8LdyNU-50" vertex="1">
           <mxGeometry y="30" width="279" height="50" as="geometry" />
@@ -160,7 +160,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="akce31rGvGXA0X8LdyNU-57" value="Urgency" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="40" y="510" width="279" height="120" as="geometry" />
+          <mxGeometry x="360" y="540" width="279" height="120" as="geometry" />
         </mxCell>
         <mxCell id="akce31rGvGXA0X8LdyNU-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="akce31rGvGXA0X8LdyNU-57" vertex="1">
           <mxGeometry y="30" width="279" height="50" as="geometry" />
