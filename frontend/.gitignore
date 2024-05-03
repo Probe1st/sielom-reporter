@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # ignore tailwindcss output file
-/src/assets/output.css
+./src/assets/output.css
