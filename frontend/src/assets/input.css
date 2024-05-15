@@ -9,3 +9,11 @@ body {
 #root {
     @apply w-2/3 mx-auto;
 }
+
+header {
+    /* @apply  */
+}
+
+header a {
+    @apply hover:text-blue-400 hover:underline
+}
