@@ -49,11 +49,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  },
-  "imports": {
-    "#pages": "./src/pages/index.js",
-    "#services": "./src/services/index.js",
-    "#components": "./src/components/",
-    "#libs": "./src/libs/index.js"
   }
 }
