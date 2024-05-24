@@ -1,1 +1,1 @@
-export {default as ReportsPage} from './ReportsPage';
+export {default as ReportsPage} from './components/ReportsPage';
