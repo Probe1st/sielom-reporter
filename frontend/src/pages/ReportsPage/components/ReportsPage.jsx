@@ -1,5 +1,5 @@
 import ReportsLaout from "../layouts/ReportsLayout";
-import { supabase } from "@/libs";
+import { supabase } from "@/lib";
 import { useEffect, useState } from "react";
 
 export default function ReportsPage() {
