@@ -69,3 +69,7 @@ body {
 header {
   @apply flex flex-row justify-between py-2 lg:px-0 px-2;
 }
+
+h3 {
+  @apply text-[1.20rem] font-semibold
+}
