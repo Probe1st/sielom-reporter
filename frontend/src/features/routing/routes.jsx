@@ -1,4 +1,4 @@
-import {OrdersPage} from '#pages';
+import {ReportsPage} from '#pages';
 
 export const publicRoutes = [
     {
@@ -19,6 +19,6 @@ export const privateRoutes = [
     },
     {
         path: "/orders",
-        element: <OrdersPage />,
+        element: <ReportsPage />,
     },
 ];
