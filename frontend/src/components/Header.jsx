@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const navObjects = [
   { name: "Profile", href: "/profile", current: false },
-  { name: "Order 1", href: "/orders/1", current: false },
+  { name: "Order example", href: window.location.pathname.match(/\/orders\/[0-9]+$/)[0], current: false },
   { name: "Orders", href: "/orders", current: false },
   { name: "Auth", href: "/auth", current: false },
 ];
@@ -16,7 +16,6 @@ function toggleCurrentPage() {
   );
   const prevPage = navObjects.find((page) => page.current);
 
-  console.log(prevPage)
   if (prevPage >= 0) prevPage.current = false;
 
   currentPage.current = true;
