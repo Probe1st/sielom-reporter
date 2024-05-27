@@ -59,11 +59,11 @@
 }
 
 body {
-  @apply bg-slate-950 dark;
+  @apply bg-blue-950 dark;
 }
 
 #root {
-  @apply w-2/3 mx-auto;
+  @apply flex flex-col w-2/3 mx-auto min-h-screen;
 }
 
 header {
