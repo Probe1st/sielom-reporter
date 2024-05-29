@@ -2,6 +2,7 @@ import { supabase } from "@/lib";
 import ReportLayout from "../layouts/ReportLayout";
 import { useEffect, useState } from "react";
 import { Report } from "@/services/Report";
+import CardSkeleton from "../layouts/CardSkeleton";
 
 export default function ReportPage() {
   const reportId = window.location.pathname.match(/[^/]+$/)[0];
@@ -18,6 +19,7 @@ export default function ReportPage() {
   return (
     <>
       {reportCard && <ReportLayout reportCard={reportCard} />}
+      {!reportCard && <CardSkeleton />}
     </>
   );
 }

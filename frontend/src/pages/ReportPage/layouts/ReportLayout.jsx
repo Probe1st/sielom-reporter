@@ -27,9 +27,9 @@ export default function ReportLayout({ reportCard }) {
 
   return (
     <div className="flex flex-row justify-center items-center grow whitespace-pre-line">
-      <Card className={"max-w-[512px]"}>
+      <Card className={"w-[512px]"}>
         <CardHeader>
-          <CardTitle className={"text-center"}>Карточка репорта</CardTitle>
+          <CardTitle className={"text-center mb-4"}>Карточка репорта</CardTitle>
           <CardDescription>
             Репорт: <span className="text-white">{id}</span> {newLine}
             Статус: <span className="text-white">{statuses_id}</span> {newLine}
@@ -44,11 +44,16 @@ export default function ReportLayout({ reportCard }) {
         </CardContent>
         <CardFooter className="flex flex-col items-start">
           {/* information about reporter, admin and times */}
-          <div className="whitespace-pre-line">
+          <div className="whitespace-pre-line w-full">
             <h3>Информация о репорте</h3>
-            Репортер: {reporter_user_id} {newLine}
-            {admin_user_id && "Админ: " + admin_user_id + newLine}
-            {newLine}
+
+            <div className="flex flex-col">
+              <p>Репортер: {reporter_user_id}</p>
+              <p>{admin_user_id && "Админ: " + admin_user_id}</p>
+            </div>
+
+            <br />
+
             <div className="text-sm text-muted-foreground">
               <Times
                 created_at={created_at}
@@ -58,13 +63,9 @@ export default function ReportLayout({ reportCard }) {
             </div>
           </div>
           {/* buttons */}
-          <div className="flex flex-row space-x-5 w-full mt-5">
-            <Button>
-              Принять
-            </Button>
-            <Button>
-              Изменить
-            </Button>
+          <div className="flex flex-row space-x-5 justify-end w-full mt-5">
+            <Button>Принять</Button>
+            <Button>Изменить</Button>
           </div>
         </CardFooter>
       </Card>
