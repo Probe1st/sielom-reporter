@@ -59,7 +59,7 @@
 }
 
 body {
-  @apply bg-blue-950 dark;
+  @apply bg-slate-900 dark;
 }
 
 #root {
