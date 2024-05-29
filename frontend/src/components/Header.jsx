@@ -11,14 +11,14 @@ const navObjects = [
 ];
 
 function toggleCurrentPage() {
-  const currentPage = navObjects.find(
-    (page) => page.href === window.location.pathname
-  );
-  const prevPage = navObjects.find((page) => page.current);
+  // const currentPage = navObjects.find(
+  //   (page) => page.href === window.location.pathname
+  // );
+  // const prevPage = navObjects.find((page) => page.current);
 
-  if (prevPage >= 0) prevPage.current = false;
+  // if (prevPage >= 0) prevPage.current = false;
 
-  currentPage.current = true;
+  // currentPage.current = true;
 }
 
 export default function Header() {
