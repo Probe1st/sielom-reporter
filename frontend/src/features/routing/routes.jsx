@@ -1,9 +1,9 @@
-import { ReportPage, ReportsPage } from '@/pages';
+import { ReportPage, ReportsPage, AuthPage } from '@/pages';
 
 export const publicRoutes = [
     {
         path: "/auth",
-        element: <div>auth</div>,
+        element: <AuthPage />,
     },
 ];
 
