@@ -33,8 +33,7 @@ export default function ReportLayout({ reportCard }) {
           <CardDescription>
             Репорт: <span className="text-white">{id}</span> {newLine}
             Статус: <span className="text-white">{statuses_id}</span> {newLine}
-            Приоритет: <span className="text-white">{priorities_id}</span>{" "}
-            {newLine}
+            Приоритет: <span className="text-white">{priorities_id}</span>{newLine}
             Аудитория: <span className="text-white">{audiences_id}</span>
           </CardDescription>
         </CardHeader>
