@@ -1,1 +1,0 @@
-export {default as AuthPage} from './components/AuthLogic';
