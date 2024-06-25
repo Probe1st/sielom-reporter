@@ -4,7 +4,7 @@ import { privateRoutes, publicRoutes } from "./routes";
 function Router({ authorized }) {
     return (
         <Routes>
-            <Route path="/" element={<Index authorized={authorized} />} />
+            <Route path="/" element={<Navigate to={"/add"} />} />
 
             {/* публичные пути */}
             {publicRoutes.map((routeObj) => (
@@ -32,14 +32,6 @@ function Router({ authorized }) {
 
 function NoMatch() {
     return <div>Page not found. 404</div>;
-}
-
-function Index({ authorized }) {
-    return authorized ? (
-        <Navigate to={"/profile"} replace={true} />
-    ) : (
-        <Navigate to={"/auth"} replace={true} />
-    );
 }
 
 export default Router;
