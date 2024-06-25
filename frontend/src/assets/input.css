@@ -58,12 +58,8 @@
   }
 }
 
-body {
-  @apply bg-slate-900 dark;
-}
-
 #root {
-  @apply flex flex-col w-2/3 mx-auto min-h-screen;
+  @apply flex flex-col lg:w-2/3 mx-auto min-h-screen;
 }
 
 header {
